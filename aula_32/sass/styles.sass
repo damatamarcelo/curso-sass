@@ -1,0 +1,33 @@
+// Módulo de variáveis Aula 35
+@import "variables"
+
+h1 // Variáveis Aula 32
+    color: $text-color
+    border: $border
+
+p
+    color: $text-color
+    border: $border
+    font-size: $main-font
+    margin: #{$mx + 10px} // Interpolação de valores Aula 36
+    padding: #{$px + $py}
+
+a
+    color: $text-color
+
+div // Escopo Aula 33
+    p
+        $font-color: #fff // Escopo local
+        $font2-color: red
+        $border: 3px dotted green // shadowing
+        background-color: $bg-color
+        color: $font-color
+        border: $border
+
+        span
+            color: $font2-color
+            border: $border
+
+h2
+    color: $h2-color
+    border: $border

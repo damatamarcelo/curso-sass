@@ -1,0 +1,75 @@
+// Partials Aula 39
+@import "variables"
+@import "buthon"
+@import "mixins"
+@import "plugins"
+@import "functions"
+
+body
+    margin: 20px
+
+.p-esp
+    @include special
+
+h2
+    @extend %special
+    @include green
+
+.esp-menor // Mixins com parâmetros Aula 41
+    @include espacamento(10px, 10px)
+    @include custom-border(solid, red)
+    @include colors
+    @extend %font-patern
+
+.esp-medio
+    @include espacamento(15px, 15px)
+    @include custom-border(dotted, blue, 4px)
+    @include colors($background: #321)
+    @extend %font-patern
+
+.esp-maior
+    @include espacamento(25px, 25px)
+    @include custom-border(solid, green)
+    @include colors($background: #336699, $font: #991155)
+    @extend %font-patern
+
+.esp-maior-ainda
+    $pad: 50px
+    $mag: 50px
+    @include espacamento($pad, $mag)
+    @include custom-border(double, gold, 3px)
+    @include colors($font: gold)
+    @extend %font-patern
+
+// Cálculo com SASS Aula 45
+$medida: 4
+
+.container-menor
+    width: 100px * ($medida + 2)
+    border: custom-border-function()
+
+.container-maior
+    width: 25rem * $medida
+    border: custom-border-function(2)
+
+.fonte-pequena // Functions Aula 46
+    font-size: 5px
+    color: text-color(5)
+    border: custom-border-function(3) // Aula 47
+
+.fonte-grande
+    font-size: 25px
+    color: text-color(25)
+    border: custom-border-function(485)
+
+.teste-1
+    width: custom-width()
+    background-color: red
+
+.teste-2
+    width: custom-width($width: 1000px)
+    background-color: green
+
+.teste-3
+    width: custom-width($division: 5)
+    background-color: blue
