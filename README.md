@@ -5,3 +5,4 @@ Estruturação do HTML pt 2 Finalização
 Configuração inicial do SASS
 Estilização do Header
 Estilização do MAIN
+Estilização da secction/ div jobs
