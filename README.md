@@ -6,3 +6,4 @@ Configuração inicial do SASS
 Estilização do Header
 Estilização do MAIN
 Estilização da secction/ div jobs
+Estruturação do FOOTER e finalização do projeto 1 SASS
