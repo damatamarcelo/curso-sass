@@ -7,3 +7,9 @@ Estilização do Header
 Estilização do MAIN
 Estilização da secction/ div jobs
 Estruturação do FOOTER e finalização do projeto 1 SASS
+Aula 69 - Arqyutetura SASS @USE
+Aulas 70 e 71 - Introdução ao tema
+Aula 72 - Arquivo principal da aplicação; Alteração de styles.sass para main.sass
+Aula 73 - Estrutura de pastas
+Aula 74 - Arquivo principal dos subdiretórios
+Aula 75 - Base; Erro inesperado ao declarar variável; Não encontrado; Verificar
