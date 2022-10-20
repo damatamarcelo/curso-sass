@@ -15,3 +15,5 @@ Aula 74 - Arquivo principal dos subdiretórios
 Aula 75 - Base; Erro inesperado ao declarar variável; Não encontrado; Verificar
 Exclusão de arquivos para tentativa de encontro de erro. Repetição dos processos das aulas 74 e 75 para tentativa de êxito
 Erro persistente :(
+Recorri aos arquivos do curso para descobrir o erro. Resolvido
+Aulas 75 a 77 copiadas no processo. Assistir aulas para melhor entendimento
